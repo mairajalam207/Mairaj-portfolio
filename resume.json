@@ -1,0 +1,94 @@
+{
+  "basics": {
+    "name": "Mairaj Alam",
+    "headline": "BSCS Student at GU TECH | Aspiring Cybersecurity Professional | Focused on SOC Foundations, Network Security & Web Pentesting",
+    "summary": "Currently pursuing a BS in Computer Science while building a hands-on foundation in cybersecurity. I am a dedicated learner focused on defensive security operations, networking, and application security.",
+    "email": "mairajalam207@gmail.com",
+    "phone": "+92 303 2973023",
+    "profiles": [
+      { "network": "LinkedIn", "url": "https://www.linkedin.com/in/mairaj-alam-16b035259/", "username": "mairaj-alam" },
+      { "network": "GitHub", "url": "https://github.com/mairajalam207", "username": "mairajalam207" },
+      { "network": "TryHackMe", "url": "https://tryhackme.com/p/mairajalam", "username": "mairajalam" },
+      { "network": "WhatsApp", "url": "https://wa.me/923032973023", "username": "+92 303 2973023" }
+    ]
+  },
+  "about": {
+    "intro": [
+      "I am an aspiring Cybersecurity professional with a deep curiosity for how systems function and how they can be secured. My approach is hands-on first — I learn best by spin-up labs, fire up Metasploit, analyze traffic, and document every step.",
+      "Currently building my foundation across <strong>SOC operations, network security, and web application pentesting</strong> while pursuing my BSCS at GU Tech / Al-Ghazali University."
+    ],
+    "pillars": [
+      { "title": "[ OFFENSE ]", "description": "Hands-on exploitation practice in controlled lab environments using Metasploit and Burp Suite." },
+      { "title": "[ DEFENSE ]", "description": "SOC operations, phishing analysis, and threat intelligence using industry-standard tooling." },
+      { "title": "[ GROWTH ]", "description": "Consistent self-study via TryHackMe rooms, NED University diploma labs, and documenting findings." }
+    ],
+    "metrics": [
+      { "value": "4+", "label": "Lab projects" },
+      { "value": "3+", "label": "TryHackMe tracks" },
+      { "value": "2", "label": "Academic Inst." },
+      { "value": "OSCP", "label": "Target cert" }
+    ]
+  },
+  "education": [
+    {
+      "institution": "GU Tech / Al-Ghazali University",
+      "area": "BS in Computer Science",
+      "status": "Currently Enrolled (Fall 2026)",
+      "details": "Focusing on CS fundamentals and core security principles."
+    },
+    {
+      "institution": "NED University (Diploma)",
+      "area": "Undergraduate Diploma in Cyber Security",
+      "status": "5/6 Courses Completed",
+      "details": "Practical exposure to SOC Ops, Network Security, and Web Security."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Offensive Security",
+      "items": ["Burp Suite", "Metasploit", "Nmap", "Nikto", "OpenVAS", "OWASP Top 10"]
+    },
+    {
+      "category": "Security Ops & DFIR",
+      "items": ["Log Analysis", "SIEM", "Incident Response", "Malware Analysis", "AbuseIPDB", "Wireshark"]
+    },
+    {
+      "category": "Network & Systems",
+      "items": ["Cisco IOS", "VLANs", "ACLs", "Packet Tracer", "TCP/IP", "OSI Model"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": ["Kali Linux", "VMware", "VirtualBox", "Git / GitHub", "TryHackMe"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Metasploitable Full Compromise Lab",
+      "outcome": "Full attack chain from recon to root.",
+      "description": "Nmap recon → vsftpd backdoor exploitation via Metasploit → root Meterpreter session → post-exploitation proof.",
+      "tools": ["Kali Linux", "Metasploit", "Nmap", "Meterpreter", "VMware"],
+      "evidence": "https://www.linkedin.com/feed/update/urn:li:activity:7474031850471124992/"
+    },
+    {
+      "title": "Phishing Analysis Investigation",
+      "outcome": "Built a robust detection methodology.",
+      "description": "Analyzed SMTP/IMAP headers for SPF/DKIM failures and inspected spoofed domains using Thunderbird.",
+      "tools": ["Thunderbird", "Email Forensics", "SPF/DKIM/DMARC", "TryHackMe"],
+      "evidence": "https://www.linkedin.com/feed/update/urn:li:activity:7476976294115827712/"
+    },
+    {
+      "title": "SOC Blue Team Operations",
+      "outcome": "Hands-on detection & response.",
+      "description": "Analyzed logs and used AbuseIPDB for threat intel in simulated incident response scenarios.",
+      "tools": ["SOC Ops", "DFIR", "AbuseIPDB", "Log Analysis", "TryHackMe"],
+      "evidence": "https://www.linkedin.com/feed/update/urn:li:activity:7476162703246688256/"
+    },
+    {
+      "title": "NED Diploma Lab Portfolio",
+      "outcome": "Technical foundation across 5 domains.",
+      "description": "Network segmentation in Cisco Packet Tracer, web vuln assessments, and SIEM configuration.",
+      "tools": ["Cisco Packet Tracer", "Burp Suite", "Nikto", "Python", "SIEM"],
+      "evidence": "https://www.linkedin.com/in/mairaj-alam-16b035259/"
+    }
+  ]
+}

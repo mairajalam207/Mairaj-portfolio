@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mairaj Alam | Cybersecurity Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">[ <span>mairaj</span>@thm ~ ]$</span>
+  <div style="display:flex;align-items:center;gap:2rem">
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="nav-social">
+      <a href="https://www.linkedin.com/in/mairaj-alam-16b035259/" target="_blank" title="LinkedIn">in</a>
+      <a href="https://github.com/mairajalam207" target="_blank" title="GitHub">gh</a>
+      <a href="https://tryhackme.com/p/mairajalam" target="_blank" title="TryHackMe">thm</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-pre">Cybersecurity Portfolio</div>
+    <h1><span class="name-white">Mairaj </span><span class="name-green">Alam</span></h1>
+    <div class="hero-headline" id="hero-headline"></div>
+    <p class="hero-sub" id="hero-summary"></p>
+    <div class="hero-badges" id="hero-badges"></div>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">⚡ View My Labs</a>
+      <a href="https://www.linkedin.com/in/mairaj-alam-16b035259/" target="_blank" class="btn-linkedin">in LinkedIn</a>
+      <a href="https://github.com/mairajalam207" target="_blank" class="btn-github">🐙 GitHub</a>
+    </div>
+    <div class="hero-stats" id="hero-stats"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <span class="section-label">about_me</span>
+    <h2 class="section-title">Who I <span>Am</span></h2>
+    <div class="section-divider"></div>
+    <div class="about-grid">
+      <div>
+        <div class="about-text" id="about-text"></div>
+        <div class="contact-cards" id="about-social" style="margin-top: 2rem;"></div>
+      </div>
+      <div>
+        <div class="pillars" id="pillars"></div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <span class="section-label">technical_skills</span>
+    <h2 class="section-title">My <span>Arsenal</span></h2>
+    <div class="section-divider"></div>
+    <div class="radar-wrap">
+      <svg class="radar" viewBox="0 0 440 380" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#88cc14;stop-opacity:0.4"/>
+            <stop offset="100%" style="stop-color:#1db0f5;stop-opacity:0.3"/>
+          </linearGradient>
+        </defs>
+        <g stroke="rgba(136,204,20,0.12)" stroke-width="1" fill="none">
+          <polygon points="220,85 318,143 318,243 220,300 122,243 122,143"/>
+          <polygon points="220,113 294,157 294,228 220,272 146,228 146,157"/>
+          <polygon points="220,141 270,171 270,213 220,244 170,213 170,171"/>
+          <line x1="220" y1="85" x2="220" y2="300" stroke="rgba(136,204,20,0.2)"/>
+          <line x1="220" y1="192" x2="318" y2="143" stroke="rgba(136,204,20,0.2)"/>
+          <line x1="220" y1="192" x2="318" y2="243" stroke="rgba(136,204,20,0.2)"/>
+          <line x1="220" y1="192" x2="122" y2="243" stroke="rgba(136,204,20,0.2)"/>
+          <line x1="220" y1="192" x2="122" y2="143" stroke="rgba(136,204,20,0.2)"/>
+        </g>
+        <polygon points="220,118 282,162 280,218 220,248 163,218 152,168" fill="url(#rg)" stroke="#88cc14" stroke-width="1.5" stroke-linejoin="round"/>
+        <text x="220" y="70" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="#88cc14" font-weight="600">SOC Ops</text>
+        <text x="334" y="140" text-anchor="start" font-family="JetBrains Mono" font-size="10" fill="#94a3b8">Inc. Response</text>
+        <text x="334" y="248" text-anchor="start" font-family="JetBrains Mono" font-size="10" fill="#94a3b8">App Security</text>
+        <text x="220" y="322" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="#94a3b8">Pentesting</text>
+        <text x="106" y="248" text-anchor="end" font-family="JetBrains Mono" font-size="10" fill="#94a3b8">Networking</text>
+        <text x="106" y="140" text-anchor="end" font-family="JetBrains Mono" font-size="10" fill="#94a3b8">Governance</text>
+      </svg>
+    </div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <span class="section-label">labs_and_projects</span>
+    <h2 class="section-title">Hands-on <span>Work</span></h2>
+    <div class="section-divider"></div>
+    <div class="social-banner" id="social-banner"></div>
+    <div class="projects-list" id="projects-list"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <span class="section-label">contact_me</span>
+    <h2 class="section-title">Get in <span>Touch</span></h2>
+    <div class="section-divider"></div>
+    <div class="contact-cards" id="contact-cards"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-term">
+    <span id="footer-text"></span>
+    <span class="cursor"></span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
